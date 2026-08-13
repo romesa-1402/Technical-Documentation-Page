@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <nav id="navbar">
+    <header>HTML & CSS Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#What_is_HTML">What is HTML</a>
+    <a class="nav-link" href="#What_is_CSS">What is CSS</a>
+    <a class="nav-link" href="#Basic_Syntax">Basic Syntax</a>
+    <a class="nav-link" href="#Common_Terms">Common Terms</a>
+  </nav>
+ 
+  <main id="main-doc">
+ 
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>This documentation provides a beginner-friendly overview of HTML and CSS, the two core building blocks of every website.</p>
+      <p>HTML (HyperText Markup Language) structures the content of a page, while CSS (Cascading Style Sheets) controls how that content looks.</p>
+      <p>By the end of this guide, you should understand the basic syntax, common terms, and how the two languages work together.</p>
+      <ul>
+        <li>Understand the purpose of HTML</li>
+        <li>Understand the purpose of CSS</li>
+      </ul>
+    </section>
+ 
+    <section class="main-section" id="What_is_HTML">
+      <header>What is HTML</header>
+      <p>HTML stands for HyperText Markup Language. It is the standard language used to create the structure of web pages using elements called tags.</p>
+      <p>Every HTML document starts with a doctype declaration, followed by an <code>&lt;html&gt;</code> element that wraps the entire page.</p>
+      <p>Below is a simple example of an HTML element:</p>
+      <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+      <p>Tags usually come in pairs: an opening tag and a closing tag, with content placed in between.</p>
+      <ul>
+        <li>Tags define structure</li>
+        <li>Attributes add extra information</li>
+        <li>Elements can be nested inside other elements</li>
+      </ul>
+    </section>
+ 
+    <section class="main-section" id="What_is_CSS">
+      <header>What is CSS</header>
+      <p>CSS stands for Cascading Style Sheets. It is used to style and lay out HTML elements, including colors, fonts, spacing, and positioning.</p>
+      <p>CSS rules are made up of a selector and a declaration block, as shown in the example below:</p>
+      <code>h1 { color: blue; font-size: 24px; }</code>
+      <p>CSS can be added inline, internally within a <code>&lt;style&gt;</code> tag, or externally through a linked stylesheet file.</p>
+      <ul>
+        <li>Selectors target HTML elements</li>
+        <li>Properties define what to style</li>
+      </ul>
+    </section>
+ 
+    <section class="main-section" id="Basic_Syntax">
+      <header>Basic Syntax</header>
+      <p>Both HTML and CSS follow a specific syntax that must be respected for the browser to render a page correctly.</p>
+      <p>In HTML, every element should be properly opened and closed, and nested elements should not overlap incorrectly.</p>
+      <code>&lt;div class="container"&gt;&lt;/div&gt;</code>
+      <p>In CSS, every declaration must end with a semicolon, and every rule must be wrapped in curly braces.</p>
+      <code>p { margin: 0; padding: 10px; }</code>
+      <p>Following consistent syntax makes your code easier to read, debug, and maintain over time.</p>
+    </section>
+ 
+    <section class="main-section" id="Common_Terms">
+      <header>Common Terms</header>
+      <p>Here are a few common terms you will encounter frequently while working with HTML and CSS.</p>
+      <ul>
+        <li><strong>Element</strong> - a single unit of HTML content, such as a paragraph or heading</li>
+        <li><strong>Attribute</strong> - extra information added to an HTML tag</li>
+        <li><strong>Selector</strong> - a pattern used in CSS to select the elements you want to style</li>
+      </ul>
+      <p>Understanding these terms will help you read documentation and communicate more clearly with other developers.</p>
+      <code>class="example"</code>
+    </section>
+ 
+  </main>
+ 
+</body>
+</html>
